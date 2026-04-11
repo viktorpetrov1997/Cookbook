@@ -43,3 +43,15 @@ npm start
 Once both servers are running, open your browser and visit:
 
 👉 http://localhost:3000
+## 📸 Screenshots 
+### 🏠 Home
+<img width="400" alt="home" src="https://github.com/user-attachments/assets/3a19cd1f-6627-4588-9ea3-b3ff4e10be60" />
+
+### 🔍 Recipe Details
+<img width="350" alt="details" src="https://github.com/user-attachments/assets/e5553c5f-54fa-4705-b856-3185a411ea8f" />
+
+### 🍽️ Catalog
+<img width="350" alt="catalog" src="https://github.com/user-attachments/assets/aef89d36-e63c-48fa-9d25-fb0b5e03f333" />
+
+### 💬 Comments
+<img width="400" alt="comments" src="https://github.com/user-attachments/assets/d04f3154-ffe1-4ac6-bbe3-e35a1edbf56c" />
