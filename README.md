@@ -1,6 +1,6 @@
 # 📖 Cookbook
 ### 🧾 Project Description
-Cookbook is a web application developed as part of the "JS Applications" SoftUni course.
+Cookbook is a web application developed as part of the "JS Applications" course at SoftUni.
 It allows users to create, browse, and search for recipes in a simple and interactive way.
 
 The application supports both guest users and registered users. Guests can explore and search recipes, while registered users can fully interact with the platform by creating and managing their own recipes.
