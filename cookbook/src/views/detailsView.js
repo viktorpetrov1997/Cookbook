@@ -2,7 +2,7 @@ import { html, nothing, page } from "../utility/library.js";
 import { dataService } from "../service/dataService.js";
 import { userUtils } from "../utility/userUtils.js";
 
-const detailsTemplate = (recipe, hasOwner, showForm, onShowForm, comments) => html`
+const detailsTemplate = (recipe, hasOwner, showForm, onShowForm, comments, isLoggedIn) => html`
     <article>
         <h2>${recipe.name}</h2>
         <div class="band">
@@ -44,10 +44,11 @@ const detailsTemplate = (recipe, hasOwner, showForm, onShowForm, comments) => ht
         </ul>
     </div>
 
-    ${!showForm ? html`
+    ${isLoggedIn ? (
+      !showForm ? html`
         <article class="new-comment">
             <form>
-                <button class="button" @click=${onShowForm}>Add comment</button>
+                <button type="button" class="button" @click=${onShowForm}>Add comment</button>
             </form>
         </article>
     ` : html`
@@ -58,7 +59,7 @@ const detailsTemplate = (recipe, hasOwner, showForm, onShowForm, comments) => ht
                 <input type="submit" value="Add comment">
             </form>
         </article>
-    `}
+    `) : nothing}
 `;
 
 let currentRecipeId = null;
@@ -72,6 +73,9 @@ export async function showDetailsView(ctx)
     const recipe = await dataService.getRecipeById(id);
 
     const userId = await userUtils.getUserId();
+
+    const isLoggedIn = Boolean(userId);
+
     const hasOwner = userId === recipe._ownerId;
 
     const comments = await dataService.getAllCommentsForRecipe(recipe._id);
@@ -81,10 +85,10 @@ export async function showDetailsView(ctx)
     function onShowForm() 
     {
         showForm = true;
-        ctx.render(detailsTemplate(recipe, hasOwner, showForm, onShowForm, comments));
+        ctx.render(detailsTemplate(recipe, hasOwner, showForm, onShowForm, comments, isLoggedIn));
     }
 
-    ctx.render(detailsTemplate(recipe, hasOwner, showForm, onShowForm, comments));
+    ctx.render(detailsTemplate(recipe, hasOwner, showForm, onShowForm, comments, isLoggedIn));
 }
 
 const getImgSrc = (img) =>

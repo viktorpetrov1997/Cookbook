@@ -10,7 +10,8 @@ const endPoints =
     getOffsetRecipes: (offset) => `/data/recipes?select=_id%2Cname%2Cimg&offset=${offset}&pageSize=5`,
     getTotalNumberOfRecipes: "/data/recipes?count",
     getAllCommentsForRecipe: (recipeId) => `/data/comments?where=recipeId%3D%22${recipeId}%22`,
-    addComment: "/data/comments"
+    addComment: "/data/comments",
+    findRecipe: (query) => `/data/recipes?where=name%20LIKE%20%22${query}%22`
 }
 
 async function getAllRecipes()
@@ -63,6 +64,11 @@ async function addComment(comment)
     return await api.post(endPoints.addComment, comment);
 }
 
+async function findRecipe(query)
+{
+    return await api.get(endPoints.findRecipe(query));
+}
+
 export const dataService =
 {
     getAllRecipes,
@@ -74,5 +80,6 @@ export const dataService =
     getOffsetRecipes,
     getTotalNumberOfRecipes,
     getAllCommentsForRecipe,
-    addComment
+    addComment,
+    findRecipe
 }
