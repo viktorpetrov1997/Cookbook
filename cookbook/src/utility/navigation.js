@@ -4,7 +4,7 @@ import { userUtils } from "./userUtils.js";
 const root = document.querySelector("nav");
 
 const navigationTemplate = (hasUser) => html`
-    <a href="/catalog" class="active">Catalog</a>
+    <a href="/catalog">Catalog</a>
 
     ${hasUser ? html` 
         <div id="user">
@@ -22,8 +22,6 @@ const navigationTemplate = (hasUser) => html`
 export function updateNav()
 {   
     const userData = userUtils.getUserData();
-
-    root.querySelectorAll("a").forEach(a => a.classList.remove("active"));
 
     render(navigationTemplate(!!userData), root);
 }

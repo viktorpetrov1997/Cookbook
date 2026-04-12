@@ -28,9 +28,12 @@ const recipeTemplate = (recipe) => html`
         </div>
     </article>
 `
+const root = document.querySelector("nav");
 
 export async function showHomeView(ctx)
 {
+    root.querySelectorAll("a").forEach(a => a.classList.remove("active"));
+    
     const data = await dataService.getThreeMostRecentRecipes();
 
     const recipes = Object.values(data);
