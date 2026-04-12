@@ -45,7 +45,7 @@ Once both servers are running, open your browser and visit:
 👉 http://localhost:3000
 ## 📸 Screenshots 
 ### 🏠 Home
-<img width="400" alt="home" src="https://github.com/user-attachments/assets/3a19cd1f-6627-4588-9ea3-b3ff4e10be60" />
+<img width="350" height="606" alt="home" src="https://github.com/user-attachments/assets/71a69c4c-82ed-428f-8518-7f5da2406faa" />
 
 ### 🔍 Recipe Details
 <img width="350" alt="details" src="https://github.com/user-attachments/assets/e5553c5f-54fa-4705-b856-3185a411ea8f" />
