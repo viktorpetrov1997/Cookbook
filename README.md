@@ -53,4 +53,4 @@ Once both servers are running, open your browser and visit:
 <img width="350" alt="catalog_view" src="https://github.com/user-attachments/assets/bd5fed7c-ab0a-4941-af15-32f6c6080313" />
 
 ### 💬 Comments
-<img width="400" alt="comments_view" src="https://github.com/user-attachments/assets/c2675b14-9023-4e2f-9751-81a5f4805343" />
+<img width="350" alt="comments_view" src="https://github.com/user-attachments/assets/c2675b14-9023-4e2f-9751-81a5f4805343" />
