@@ -26,19 +26,22 @@ The application supports both guest users and registered users. Guests can explo
 #### 1. Clone the repository
 ```bash
 git clone <repo-url>
+```
+#### 2. Navigate to the project folder
+```bash
 cd cookbook
 ```
-#### 2. Start the backend server
+#### 3. Start the backend server
 ```bash
 cd server
 node server.js
 ```
-#### 3. Start the frontend application
+#### 4. Start the frontend application
 Open a new terminal window and run:
 ```bash
 npm start
 ```
-#### 4. Open the application
+#### 5. Open the application
 Once both servers are running, open your browser and visit:
 
 👉 http://localhost:3000
