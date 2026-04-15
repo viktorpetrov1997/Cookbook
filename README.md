@@ -10,8 +10,7 @@ The application supports both guest users and registered users. Guests can explo
 * Search for recipes
 * View recipe details
 * ❌ Cannot comment, create, edit, or delete recipes
-### 👤 Registered Users
-* 🔐 Register and log in
+### 🔐 Registered Users
 * 🍲 Create new recipes
 * ✏️ Edit their own recipes
 * 🗑️ Delete their own recipes
