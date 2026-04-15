@@ -44,13 +44,13 @@ Once both servers are running, open your browser and visit:
 👉 http://localhost:3000
 ## 📸 Screenshots 
 ### 🏠 Home
-<img width="350" height="606" alt="home" src="https://github.com/user-attachments/assets/71a69c4c-82ed-428f-8518-7f5da2406faa" />
+<img width="350" alt="home_view" src="https://github.com/user-attachments/assets/204dcf56-f1a2-4a4d-94e4-452d3c1c1ef7" />
 
 ### 🔍 Recipe Details
-<img width="350" alt="details" src="https://github.com/user-attachments/assets/e5553c5f-54fa-4705-b856-3185a411ea8f" />
+<img width="350" alt="recipe_details_view" src="https://github.com/user-attachments/assets/0708fea9-84e0-4505-bed9-aefb04203450" />
 
 ### 🍽️ Catalog
-<img width="350" alt="catalog" src="https://github.com/user-attachments/assets/aef89d36-e63c-48fa-9d25-fb0b5e03f333" />
+<img width="350" alt="catalog_view" src="https://github.com/user-attachments/assets/bd5fed7c-ab0a-4941-af15-32f6c6080313" />
 
 ### 💬 Comments
-<img width="400" alt="comments" src="https://github.com/user-attachments/assets/d04f3154-ffe1-4ac6-bbe3-e35a1edbf56c" />
+<img width="400" alt="comments_view" src="https://github.com/user-attachments/assets/c2675b14-9023-4e2f-9751-81a5f4805343" />
