@@ -6,9 +6,8 @@ It allows users to create, browse, and search for recipes in a simple and intera
 The application supports both guest users and registered users. Guests can explore and search recipes, while registered users can fully interact with the platform by creating and managing their own recipes.
 ## ✨ Features
 ### 👀 Guest Users
-* Browse all recipes
-* Search for recipes
-* View recipe details
+* 🔍 Browse and search all recipes
+* 📄 View recipe details
 * ❌ Cannot comment, create, edit, or delete recipes
 ### 🔐 Registered Users
 * 🍲 Create new recipes
@@ -16,12 +15,13 @@ The application supports both guest users and registered users. Guests can explo
 * 🗑️ Delete their own recipes
 * 💬 Comment on any recipe
 * 🔍 Browse and search all recipes
+* 📄 View recipe details
 ## 🛠️ Tech Stack
-* HTML
-* CSS
-* JavaScript
-* lit-html – for templating
-* page.js – for client-side routing
+🌐 HTML  
+🎨 CSS  
+⚡ JavaScript  
+🧩 lit-html – for templating  
+🛣️ page.js – for client-side routing  
 ## 🚀 Getting Started
 #### 1. Clone the repository
 ```bash
