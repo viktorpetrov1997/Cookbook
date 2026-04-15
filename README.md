@@ -17,11 +17,11 @@ The application supports both guest users and registered users. Guests can explo
 * 🔍 Browse and search all recipes
 * 📄 View recipe details
 ## 🛠️ Tech Stack
-🌐 HTML  
-🎨 CSS  
-⚡ JavaScript  
-🧩 lit-html – for templating  
-🛣️ page.js – for client-side routing  
+* 🌐 HTML  
+* 🎨 CSS  
+* ⚡ JavaScript  
+* 🧩 lit-html – for templating  
+* 🛣️ page.js – for client-side routing  
 ## 🚀 Getting Started
 #### 1. Clone the repository
 ```bash
